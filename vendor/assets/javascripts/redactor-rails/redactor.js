@@ -1853,7 +1853,8 @@
 		toolbarObserveScroll: function()
 		{
 			var scrollTop = $(this.opts.toolbarFixedTarget).scrollTop();
-			var boxTop = this.$box.offset().top;
+			// var boxTop = this.$box.offset().top;
+			var boxTop = 295
 			var left = 0;
 
 			var end = boxTop + this.$box.height() + 40;
